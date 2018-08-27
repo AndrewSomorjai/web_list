@@ -1,0 +1,26 @@
+<!doctype html>
+<html> 
+<script >	
+	var Module = 
+	{
+      onRuntimeInitialized: function() 
+	  {		
+		var instance = new Module.list();
+		instance.createnode(19);
+		instance.createnode(20);
+		instance.createnode(21);
+		console.log("output instance.return_first(): ", instance.return_first());
+		console.log("output instance.x: ", instance.x);		
+		instance.display();		
+		console.log("delete_first: ");
+		instance.delete_first();
+		instance.display();		
+		console.log("delete_last: ");
+		instance.delete_last();
+		instance.display();
+		instance.delete();	
+	  }
+    };
+  </script>
+  <script type="text/javascript" src="list.js"> </script>	
+</html>
