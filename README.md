@@ -7,3 +7,8 @@ emcc  --bind -o list.js list.cpp
 
 On Ubuntu Linux.
 
+For info on setting up emscripten
+
+https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html
+
+
